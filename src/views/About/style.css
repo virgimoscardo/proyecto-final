@@ -1,0 +1,23 @@
+#About{
+    height: 42rem;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+#contenido-about{
+    width: 50%;
+    color: #343434;
+    margin: auto;       
+}
+
+#about-subtitulo{
+    color: #E0752F
+}
+
+#rectangulo{
+    width: 2rem;
+    height: 24rem;
+    background-color: #E0752F;
+    position: absolute;       
+}

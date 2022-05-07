@@ -1,0 +1,25 @@
+$primary:  #E0752F;
+$alert-size: 10rem;
+
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+body {
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  ul{
+    list-style: none;
+  
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }

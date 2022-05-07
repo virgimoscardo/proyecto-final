@@ -1,0 +1,43 @@
+#Home{
+    background-image: url(../../../public/assets/slider-1.png);
+    background-size: cover;
+    color: white;
+    height: 50rem;
+    padding-left: 6.3rem;
+    
+}
+
+.nav-link{
+    color: white;
+}
+   
+#navbarNav{
+    padding-left: 50%;
+}
+
+.nav-item{
+    margin: 0 0 0 20px;
+}
+
+#Home h1{
+    font-size: 3rem;
+    width: 30rem;
+    margin-top: 11.5rem;
+}
+
+#Home p{
+width: 21rem;
+padding:2rem 0;
+}
+
+
+.btn-primary{
+    border-radius: 25px;
+    color: white;
+    height: 3rem;
+    width: 9rem;
+    
+}
+
+
+    
