@@ -1,16 +1,13 @@
-#Home{
-    background-image: url(../../../public/assets/slider-1.png);
-    background-size: cover;
-    color: white;
-    height: 50rem;
-    padding-left: 6.3rem;
-    
+ 
+.container-fluid{
+    padding:0px;
 }
+
 
 .nav-link{
     color: white;
 }
-   
+  
 #navbarNav{
     padding-left: 50%;
 }
@@ -19,25 +16,72 @@
     margin: 0 0 0 20px;
 }
 
-#Home h1{
-    font-size: 3rem;
-    width: 30rem;
-    margin-top: 11.5rem;
-}
-
-#Home p{
-width: 21rem;
-padding:2rem 0;
-}
-
-
 .btn-primary{
     border-radius: 25px;
     color: white;
-    height: 3rem;
-    width: 9rem;
+    width: 144px;
+    height: 48px;
+    background-color: #E0752F;
+    
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    border: none;
+    height:8px;
+    width:50px;
+    opacity: 1;
+    background-color:#5f6368;
+}
+
+.carousel-indicators .active{
+    background-color:#E0752F; 
+}
+
+.letra-chica{
+    font-size: 14px;
+}
+
+.posicion{
+    top: 584px;
+    left: 0px;
+    width: 40px;
+    height: 10px;
+}
+
+.carrousel-item{
+    min-height: 400px;
+    background-size: cover;
     
 }
 
 
-    
+.ubicacion{
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+}
+
+.cuadro-carrusel-h1{
+    top: 254px;
+    left: 0px;
+    width: 554px;
+    height: 115px; 
+    color: white;
+}
+
+.cuadro-carrusel-p{
+    top: 399px;
+    left: 0px;
+    width: 343px;
+    height: 42px; 
+    color: white;
+}
+
+.cuadro-carrusel-button{
+    top: 480px;
+    left: 0px;
+    width: 144px;
+    height: 48px; 
+}

@@ -1,14 +1,12 @@
 import './style.css';
 import Navbar from './Components/Navbar';
-import Button from './Components/Button';
+import Slide from './Components/Slide';
 
 function Home (){
     return(
-        <div id="Home">
+        <div  className="container-fluid">
            <Navbar/>
-           <h1>Sed ut perspiciatis unde omnis iste natus</h1>
-           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
-           <Button/>
+           <Slide/>
         </div>
 
     )
