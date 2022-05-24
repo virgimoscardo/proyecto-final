@@ -10,6 +10,7 @@
   
 #navbarNav{
     padding-left: 50%;
+    
 }
 
 .nav-item{
@@ -54,6 +55,14 @@
     background-size: cover;
     
 }
+
+.container-fluid{
+    padding-top: 2rem;
+}
+
+
+
+
 
 
 .ubicacion{

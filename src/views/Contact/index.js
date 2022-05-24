@@ -4,9 +4,11 @@ import './style.css'
 
 function Contact() {
     const [userInput, setUserInput] = useState({name: "", email: "", phone: "", message: ""})
-    const [showAlert, setShowAlert] = useState(false)
+    const [showSuccess, setShowSuccess] = useState(false)
+    const [showErrors, setShowErrors] = useState([])
+
     const handleChange = function (event) {
-        setShowAlert(false)
+        setShowSuccess(false)
 
         const property = event.target.id
         const value =  event.target.value
@@ -16,15 +18,19 @@ function Contact() {
     const handleSubmit = function (event){
         event.preventDefault()
         axios({
-            url: 'https://jsonplaceholder.typicode.com/posts',
+            url: 'http://localhost/proyecto-final-back/public/api/contacto',
             method: 'POST',
             data: userInput
         }).then( result => {
             console.log(result)
-            setShowAlert(true)
+            setShowSuccess(true)
             setUserInput({name: "", email: "", phone: "", message: ""})
         })
-        .catch( error => console.log(error))
+        .catch (error => {
+            console.log(error)
+            error && error.response && setShowErrors(error.response.data)
+        })
+        
     }
 
     return (
@@ -74,9 +80,14 @@ function Contact() {
                     value={userInput.message}
                 ></textarea>
             </div>
-            <button disabled={(userInput.name==="")||(userInput.email==="")||(userInput.phone==="")||(userInput.message==="")} type="submit" className="btn btn-primary submitForm">Submit</button>
+            <button disabled={(userInput.name==="")||(userInput.email==="")||(userInput.phone==="")||(userInput.message==="")}  type="submit" className="btn btn-primary submitForm">Submit</button>
         </form>
-        {showAlert && <div className="alert alert-success">Mensaje enviado correctamente</div>}
+        {showSuccess && <div className="alert alert-success">Mensaje enviado correctamente</div>}
+        {setShowErrors.lenght&&
+            setShowErrors.map(error=>{
+                <div className="alert alert-error">Error:{error[0]}</div>
+            })                
+        }
         </section>
   );
 }
