@@ -10,6 +10,7 @@
   
 #navbarNav{
     padding-left: 50%;
+    
 }
 
 .nav-item{
@@ -49,6 +50,23 @@
     height: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.carrousel-item{
+    min-height: 400px;
+    background-size: cover;
+    
+}
+
+.container-fluid{
+    padding-top: 2rem;
+}
+
+
+
+
+
+>>>>>>> 9d0c1436b5fe76abc1b4f6bf7a6d19f954b10d8d
 
 .carousel-inner > .carousel-item > img{
   height: 768px;
