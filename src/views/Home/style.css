@@ -1,8 +1,8 @@
  
 .container-fluid{
     padding:0px;
+    
 }
-
 
 .nav-link{
     color: white;
@@ -49,18 +49,12 @@
     height: 10px;
 }
 
-.carrousel-item{
-    min-height: 400px;
-    background-size: cover;
-    
-}
 
-
-.ubicacion{
-    top: 0px;
-    left: 0px;
-    width: 1366px;
-    height: 768px;
+.carousel-inner > .carousel-item > img{
+  height: 768px;
+  width: 1000px;
+  top: 0px;
+  left: 0px;
 }
 
 .cuadro-carrusel-h1{
@@ -85,3 +79,4 @@
     width: 144px;
     height: 48px; 
 }
+

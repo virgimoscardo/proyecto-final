@@ -2,8 +2,9 @@ import '../style.css';
 
 function Navbar(){
     return(
-          <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
-            <div className="container-fluid">
+      
+          <nav className="navbar navbar-expand-lg  fixed-top navbar-dark">
+            <div className="container">
                 <a className="navbar-brand" href="#logo"><img src={`../assets/top-logo.png`} alt="logo25"/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                   <span className="navbar-toggler-icon"></span>
@@ -31,7 +32,6 @@ function Navbar(){
                    
             </div>          
           </nav>
-     
     )
 }
 

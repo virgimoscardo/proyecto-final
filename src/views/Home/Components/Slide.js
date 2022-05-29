@@ -3,17 +3,16 @@ import Button from './Button';
 
 function Slide(){
     return(
-    <div className="container-flex">    
-    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-       <div className="carousel-inner ubicacion">
+    <div id="carouselExampleIndicators" className="carousel slide " data-bs-ride="carousel">
+       <div className="carousel-inner">
           <div className="carousel-item active">
-              <img src={`../assets/slider-1.png`} className="d-block w-100" alt="..."/>
+              <img src={`../assets/slider-1.png`} className="d-block w-100" alt="imagen1"/>
           </div>
           <div className="carousel-item">
-              <img src={`../assets/section3-image.png`} className="d-block w-100" alt="..."/>
+              <img src={`../assets/section3-image.png`} className="d-block w-100" alt="imagen2"/>
           </div>
           <div className="carousel-item">
-              <img src={`../assets/contact-image(2).png`} className="d-block w-100" alt="..."/>
+              <img src={`../assets/contact-image(2).png`} className="d-block w-100" alt="imagen3"/>
           </div>
         </div>
        <div className="carousel-indicators posicion">
@@ -38,7 +37,6 @@ function Slide(){
            </div>
         </div>
        
-    </div>
     </div>
     )
 }

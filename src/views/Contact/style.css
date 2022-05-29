@@ -1,15 +1,20 @@
-#Contact{
+.contacto{
     background: linear-gradient(to right,#F2F4F1 0%, #F2F4F1 80%, #DCE1DA 80%, #DCE1DA 100%);
-    height: 768px;
-    padding-left: 6.3rem;
+    width: 100%;
+    height: 43rem;
+    position: relative;
+    padding-left: 5rem;
     padding-top: 7.5rem;
-   
 }
 
+.form-contacto{
+    position: absolute;
+}
 
 .submitForm{
     background-color:#E0752F;
     border: #E0752F;
+    position: absolute;
 }
 
 .submitForm:hover{
@@ -21,10 +26,12 @@
 .form-group{    
     margin: 15px;    
     width: 30rem;   
+    
 }
 
-#img-contacto{
-    margin-left: 40%;    
+.imagen-contacto{
+    width: 40%;
+    height: auto;  
     position: absolute;
 }
 
@@ -35,6 +42,7 @@
     border-radius: 0;
     background-color: transparent;
     margin-bottom: 1.5rem;
+    
 }
 
 #Contact h1{

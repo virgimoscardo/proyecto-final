@@ -4,11 +4,11 @@ import Slide from './Components/Slide';
 
 function Home (){
     return(
-        <div  className="container-fluid">
+        <header>
            <Navbar/>
+        
            <Slide/>
-        </div>
-
+        </header>
     )
 }
 
