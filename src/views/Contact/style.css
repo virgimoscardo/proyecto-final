@@ -7,8 +7,10 @@
     padding-top: 7.5rem;
 }
 
-.form-contacto{
+.formulario-contacto{
     position: absolute;
+    padding-top: 10%;
+    padding-left: 5%;
 }
 
 .submitForm{
@@ -33,6 +35,8 @@
     width: 40%;
     height: auto;  
     position: absolute;
+    padding-top: 15%;
+
 }
 
 

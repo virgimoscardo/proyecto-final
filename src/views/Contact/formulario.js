@@ -28,7 +28,7 @@ function Formulario() {
     }
 
     return (
-        <div className="mb-3">
+        <div className="formulario-contacto">
             <h1>Get in touch</h1>
             <h2>Were are hiring!</h2>
             <form className="form-contacto" onSubmit={handleSubmit}>
