@@ -7,6 +7,11 @@
     padding-top: 7.5rem;
 }
 
+.filas{
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
 .form-contacto{
     position: absolute;
 }

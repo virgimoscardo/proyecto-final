@@ -5,7 +5,7 @@ function Contact() {
     
     return (
         <div className="container-fluid contacto" id="Contact"> 
-            <div className="row ">
+            <div className="row filas">
                 <div className="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
                     <Formulario/>
                 </div>
