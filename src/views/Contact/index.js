@@ -2,7 +2,7 @@ import Formulario from './formulario';
 import './style.css'
 
 function Contact() {
-    
+   
     return (
         <div className="container-fluid contacto" id="Contact"> 
             <div className="row filas">
@@ -16,7 +16,8 @@ function Contact() {
                 </div>
             </div>
         </div> 
-  );
+    )
 }
 
 export default Contact;
+
