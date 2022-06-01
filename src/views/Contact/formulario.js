@@ -18,7 +18,7 @@ function Formulario() {
     const handleSubmit = function (event){
         event.preventDefault()
         axios({
-            url: 'http://localhost/proyecto-final-back/public/api/contacto',
+            url: 'https://watts-25-back.herokuapp.com/api/contacto',
             method: 'POST',
             data: userInput
         }).then( result => {
