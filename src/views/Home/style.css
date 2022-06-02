@@ -3,6 +3,9 @@
     padding:0px;
     
 }
+.navbar{
+    width: 100%;
+}
 
 .nav-link{
     color: white;
@@ -50,9 +53,13 @@
     height: 10px;
 }
 
+.slide{
+    width: 100%;
+}
+
 .carousel-inner > .carousel-item > img{
   height: 768px;
-  width: 1000px;
+  width: 100%;
   top: 0px;
   left: 0px;
 }
@@ -82,7 +89,7 @@
 
 @media screen and (max-width: 480px){
     .cuadro-carrusel-h1{
-        width: 100%;
+        width: 85%;
     }
     .cuadro-carrusel-p{
         width: 70%;

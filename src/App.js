@@ -7,7 +7,7 @@ import Footer from './views/Footer';
 
 function App() {
   return (
-   <div className="container-fluid">
+   <div >
       <About/>
       <Products/>
       <Services/>
