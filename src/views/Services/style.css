@@ -21,5 +21,11 @@
     left: 42%; 
 } 
 
+@media screen and (max-width: 480px){    
+    .servicios{
+        display:block;
+    }
+}
+
 
 

@@ -69,7 +69,7 @@
     color:#E0752F;    
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px){    
     .form-group{    
         margin: 15px;    
         width: 15rem;  
