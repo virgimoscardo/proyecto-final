@@ -91,4 +91,17 @@
    #imagen{
         object-fit: cover;
     }
+
+    .container{
+       width: 350px;
+        
+    }
+
+    .navbar-expand-lg{
+        width:350px;
+    }
+
+    h1{
+        margin-right: 5%;
+    }
  }

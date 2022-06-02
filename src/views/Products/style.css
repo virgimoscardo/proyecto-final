@@ -43,8 +43,17 @@
 }
 
 @media screen and (max-width: 480px){
-    .espacio{
-        height: 30%;   
+    .productos{
+        height: 30rem;
     }
+    
+    .espacio{
+        height: 20%;   
+    }
+
+    .posicion-imagen{ 
+        display:none; 
+       
+    } 
  
  }
