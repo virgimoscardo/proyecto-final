@@ -2,7 +2,7 @@ import "./style.css";
 
 function About(){
     return(
-        <div className="row about" id="About">
+       <div className="row container-fluid about" id="About">
         
             <div className="rectangulo" id="rectangulo"></div>
             <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
